@@ -11,6 +11,9 @@ Use snake_case for methods. For example, `def hello_world():`.
 ### Variables
 Use camelCase for variables. For example, `myVar = "hello"`.
 
+### Booleans
+Use camelCase prefixed with `b` for booleans. For example, `bIsTrue = True` or `bIsFalse = 1`.
+
 ### Classes
 Use PascalCase for classes. For example, `class MyModel:`.
 
