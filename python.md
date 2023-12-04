@@ -30,7 +30,7 @@ Use snake_case for modules. For example, `my_module.py`.
 Use double quotes for string literals. For example, `"This is a string"`.
 
 ### Typing
-Use Python's typing module to annotate the types of variables, return types of functions etc. For example, `def my_method(myVariable: cv2.Mat) -> str:`.
+Use Python's `typing` module to annotate the types of variables, return types of functions etc. For example, `def my_method(myVariable: cv2.Mat) -> str:`.
 
 ### Logging
 Use the `logging` module to log messages instead of print statements. For example, `logging.info("This is a message")`.
