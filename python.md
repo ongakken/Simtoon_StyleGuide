@@ -53,9 +53,11 @@ Use the `import` statement to import modules. For example, `import cv2`. Order y
 ```python
 import os
 import sys
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+
 from my_module import my_method
 ```
 
