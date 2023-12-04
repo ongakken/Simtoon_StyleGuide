@@ -5,8 +5,11 @@
 
 ## Specs
 
+### Functions
+Use snake_case for functions. For example, `def hello_world():`.
+
 ### Methods
-Use snake_case for methods. For example, `def hello_world():`.
+Methods are functions that are part of a class. They are identified by the `self` parameter. Use snake_case for methods. For example, `def hello_world(self):`.
 
 ### Variables
 Use camelCase for variables. For example, `myVar = "hello"`.
