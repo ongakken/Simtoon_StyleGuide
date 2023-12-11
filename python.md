@@ -15,7 +15,7 @@ Methods are functions that are class members. They are identified by the `self` 
 Use camelCase for variables. For example, `myVar = "hello"`.
 
 ### Booleans
-Use camelCase prefixed with `b` for booleans. For example, `bIsTrue = True` or `bIsFalse = 1`.
+Use camelCase prefixed with `b` for booleans. For example, `bIsTrue = True`.
 
 ### Classes
 Use PascalCase for classes. For example, `class MyModel:`.
