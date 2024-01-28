@@ -34,6 +34,9 @@ Use Python's `typing` module to annotate the types of variables, return types of
 
 ### Logging
 Use the `logging` module to log messages instead of print statements. For example, `logging.info("This is a message")`.
+`logging.debug` shall be used for logging values that are likely to change often and would be important when debugging.
+`logging.info` shall be used for printing resulting values (outputs), types of objects, etc.
+`logging.warning` and `logging.error` shall be used when a possibly problematic value is encountered and when a breaking issue is encountered, respectively.
 
 ### Documentation
 Use the Doxygen system to document your code. For example, `@param myVariable: This variable is an input to a function`.
