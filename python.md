@@ -33,7 +33,7 @@ Use double quotes for string literals. For example, `"This is a string"`.
 Use Python's `typing` module to annotate the types of variables, return types of functions/methods, etc. For example, `def my_method(myVariable: cv2.Mat) -> str:`.
 
 ### Class attributes
-To read and modify variables of classes, setters and getters should be used. For example, 
+To read and modify variables of classes, setters and getters should be used. For example, `obj.set_my_variable(1)` and `obj.get_my_variable()`.
 
 ### Logging
 Use the `logging` module to log messages instead of print statements. For example, `logging.info("This is a message")`.
