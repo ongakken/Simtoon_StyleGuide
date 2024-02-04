@@ -30,10 +30,13 @@ Use snake_case for modules. For example, `my_module.py`.
 Use double quotes for string literals. For example, `"This is a string"`.
 
 ### Typing
-Use Python's `typing` module to annotate the types of variables, return types of functions/methods, etc. For example, `def my_method(myVariable: cv2.Mat) -> str:`.
+Use Python's `typing` module to annotate the types of variables, return types of functions/methods, etc. For example, `def my_method(myVariable: cv2.Mat) -> str:`. If the type is not a built-in type, use the fully qualified name of the type. For example, `def my_method(myVariable: cv2.Mat) -> str:`. All defined variables should be annotated with their types. For example, `myVar: int = 1`.
 
 ### Class attributes
 To read and modify variables of classes, setters and getters should be used. For example, `obj.set_my_variable(1)` and `obj.get_my_variable()`.
+
+### Conditionals
+Place expressions into parentheses. Use `==` and `!=` for equality comparisons. For example, `if (myVar == 1):`. Conditionals should also use short-circuit evaluation, meaning that the most likely condition should be placed first, whether that is the positive or negative boolean condition.
 
 ### Logging
 Use the `logging` module to log messages instead of print statements. For example, `logging.info("This is a message")`.
