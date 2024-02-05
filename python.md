@@ -11,6 +11,9 @@ Use snake_case for functions. For example, `def hello_world():`.
 ### Methods
 Methods are functions that are class members. They are identified by the `self` parameter. Use snake_case for methods. For example, `def hello_world(self):`.
 
+### Async functions/methods
+Use snake_case for async functions/methods with the prefix `ASYNC_`. For example, `async def ASYNC_hello_world(self):`.
+
 ### Variables
 Use camelCase for variables. For example, `myVar = "hello"`.
 
@@ -26,7 +29,7 @@ Use all caps for constants with an underscore between words. For example, `MY_CO
 ### Modules
 Use snake_case for modules. For example, `my_module.py`.
 
-### String Literals
+### String literals
 Use double quotes for string literals. For example, `"This is a string"`.
 
 ### Typing
