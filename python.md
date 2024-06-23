@@ -73,8 +73,5 @@ import matplotlib.pyplot as plt
 from my_module import my_method
 ```
 
-### Misc
-When working with vectors (and matrices, tensors) and intending to compare them (semantic search, etc.), prefer similarity metrics to distance metrics. If a distance metric is desired, invert and clamp it to the range [0, 1]. For example, `similarity = 1 - distance`. If a raw distance is needed, leave it as-is.
-
 ### Other
 Everything else should follow the official PEP-8 style guide.
